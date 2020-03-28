@@ -39,11 +39,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
   - [React-router-dom]()
   - [React-icons]()
-  - [Unform-Rocketseat]
+  - [Unform-Rocketseat]()
 
 ## 💻 Projeto
 
-O Be-The-Hero é um projecto que visa Ong's se cadastrarem e postarem alguns incidentes e o valor para poderem solucionar o problema. Assim outras pessoas ou empresas poderam ver os incidentes e ajudar!
+O Be-The-Hero é um projecto que visa Ong's se cadastrarem e postarem alguns incidentes e o valor para poderem solucionar o problema. Assim outras pessoas ou empresas poderão ver os incidentes e ajudar!
 
 ## :memo: Licença
 
