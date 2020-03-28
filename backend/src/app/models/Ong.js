@@ -1,4 +1,4 @@
-const crypto = require('crypto');
+const generateUniqueId = require('../utils/generateUniqueId');
 const connection = require('../../database/connection');
 
 class Ong {
@@ -33,7 +33,7 @@ class Ong {
   }
 
   static async createOng({ name, email, whatsapp, city, uf }) {
-    const id = crypto.randomBytes(4).toString('HEX');
+    const id = generateUniqueId();
 
     try {
       let ong = await connection('ongs')
@@ -66,7 +66,6 @@ class Ong {
         statusCode: 400
       };
     } catch (err) {
-      console.log(err);
       return {
         success: false,
         messages: ['Houve um erro, tente novamente!'],

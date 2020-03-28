@@ -26,7 +26,9 @@ function Logon() {
 
       history.push('/profile');
     } catch (err) {
-      alert(err.response.data.messages[0]);
+      console.log(err);
+      if (err.response) alert(err.response.data.messages[0]);
+      else alert('Houve um erro!');
     }
   }
   return (
