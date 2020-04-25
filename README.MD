@@ -40,6 +40,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   - [React-router-dom]()
   - [React-icons]()
   - [Unform-Rocketseat]()
+- [React-Native]()
 
 ## 💻 Projeto
 
